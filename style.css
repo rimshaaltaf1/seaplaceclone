@@ -1,0 +1,409 @@
+*{
+    /* border: 1px solid red; */
+}
+header>.row-1{
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+header>.row-1>.image>img{
+    padding: 30px 60px;
+    cursor: pointer;
+}
+header>.row-1>.txt>p{
+    margin-left: 15.5px;
+    margin-top: 25px;
+}
+header>.row-1>.txt>p>i{
+    color: #cca772;
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+header>.row-2{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    z-index: 1;
+}
+header>.row-2>ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header>.row-2>ul>li{
+    padding: 0px 20px;
+}
+header>.row-2>ul>li>a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+header>.row-2>ul>li>a:visited{
+    color: #cca772;
+}
+header>.row-2>div>i{
+    padding: 20px 10px;
+    color: #9b9b9b;
+}
+header>.row-2>div>i:hover{
+    color: #cca772;
+    cursor: pointer;
+}
+header>.row-3{
+    width: 100%;
+}
+header>img{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+header>.row-3>.txt{
+    background-color: #03000ab6;
+    height: 750px;
+    position: absolute;
+    top: 168px;
+    left: 0px;
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header>.row-3>.txt>h4{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+header>.row-3>.txt>h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+header>.row-3>.txt>button{
+    border: 1.5px solid #cca772;
+    background-color: #ffffff00; 
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+header>.row-3>.txt>button:hover{
+    border: 1.5px solid #cca772;
+    transition: 0.5s ease;   
+    color: #fff; 
+    background-color: #cca772;
+}
+header>.row-3>.inputs{
+    box-shadow: 0px 2px 10px #adadad;
+    height: 180px;
+    width: 920px;
+    position: absolute;
+    top: 825px;
+    left: 175px;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+header>.row-3>.inputs>input{
+    height: 50px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1.5px solid #ebebeb;
+    margin-bottom: 20px;
+}
+header>.row-3>.inputs>button{
+    border: 1.5px solid #cca772;
+    background-color: #cca772;
+    padding: 10px 50px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 50px;
+}
+header>.row-3>.inputs>button:hover{
+    border: 1.5px solid #cca772;
+    transition: 0.5s ease;   
+    background-color: #ffffff00; 
+}
+.sec-2{
+    height: 1920px;
+    margin-top: 200px;
+    width: 100%;
+}
+.sec-2 .row-1{
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.sec-2 .row-1 .images{
+    padding-left: 80px;
+    width: 520px;
+    height: 490px;
+}
+.sec-2 .row-1 .images span{
+    display: flex;
+}
+.sec-2 .row-1 .txt{
+    width: 600px;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.sec-2 .row-1 .txt h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sec-2 .row-1 .txt p{
+    color: #636363;
+}
+.sec-2 .row-1 .txt button{
+    border: 1.5px solid #cca772;
+    background-color: #cca772;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 50px;
+}
+.sec-2 .row-1 .txt button:hover{
+    border: 1.5px solid #cca772;
+    transition: 0.5s ease-out;   
+    background-color: #ffffff00; 
+    color: black;
+}
+.sec-2 .row-2{
+    height: 590px;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.sec-2 .row-2 div{
+    height: 590px;
+    width: 360px;
+    margin: 0px 30px;
+    box-shadow: 0.5px 0.5px 7px #e6e6e6;
+}
+.sec-2 .row-2 div img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sec-2 .row-2 div p span{
+    font-size: 30px;
+}
+.sec-2 .row-2 div h3:hover{
+    color: #cca772;
+    transition: 0.5s ease;
+}
+.sec-2 .row-2 div .book:hover{
+    color: #cca772;
+    cursor: pointer;
+    transition: 0.5s ease;   
+}
+.sec-2 .row-3{
+    height: 500px;
+    width: 100%;
+}
+.sec-2 .row-3 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.sec-2 .row-3 .txt{
+    background-color: rgba(0, 0, 0, 0.34);
+    height: 500px;
+    position: absolute;
+    top: 2543px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+}
+.sec-2 .row-3 .txt i{
+    font-size: 20px;
+    color: #cca772;
+    border-radius: 50px;
+    background-color: #fff; 
+    padding: 30px 33px;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    cursor: pointer;
+}
+.sec-3{
+    height: 1400px;
+    background-color: #f1f1f1;
+}
+.sec-3 .row-1{
+    width: 100%;
+    height: 280px;
+    padding-left: 110px;
+    margin-top: 30px;
+}
+.sec-3 .row-1 .txt{
+    background-color: #fff;
+    width: 300px;
+    height: 170px;
+    padding-top: 35px;
+    padding-left: 25px;
+    margin: 0px 30px;
+}
+.sec-3 .row-1 .txt:hover{
+    background-color: #cca772;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.sec-3 .row-1 .txt h5 i{
+    color: #cca772;
+}
+.sec-3 .row-1 .txt h5 i:hover{
+    color: #fff;
+    transition: 0.5s ease;
+}
+.sec-3 .row-1 .txt p{
+    color: #636363;
+}
+.sec-3 .row-1 .txt p:hover{
+    color: #fff;
+    transition: 0.5s ease;
+}
+.sec-3 .row-2{
+    width: 100%;
+    background-color: #fff;
+    height: 500px;
+}
+.sec-3 .row-2 .guest .txt{
+    background-color: #f1f1f1;
+    width: 330px;
+    height: 220px;
+    padding-top: 35px;
+    padding-left: 20px;
+    margin: 0px 30px;
+}
+.sec-3 .row-2 .guest .txt:hover{
+    box-shadow: 1px 1px 10px #e6e6e6;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+.sec-3 .row-2 .guest .txt img{
+    margin-right: 10px;
+}
+.sec-3 .row-3{
+    width: 100%;
+    margin: 0px;
+    height: 950px;
+}
+.sec-3 .row-3 .guest .txt{
+    height: 650px;
+    width: 360px;
+    margin: 0px 30px;
+    box-shadow: 0.5px 0.5px 7px #d9d9d9;
+}
+.sec-3 .row-3 .guest .txt h4:hover{
+    color: #cca772;
+    transition: 0.5s ease;
+}
+.sec-3 .row-3 .guest .txt .book:hover{
+    color: rgb(2, 2, 158);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.sec-4>.row-1{
+    width: 100%;
+    height: 350px;
+    background-color: #0b1a2a;
+    margin-top: 1100px;
+}
+.sec-4>.row-1>div{
+    color: #fff;
+    margin-top: 90px;
+}
+.sec-4>.row-1>div>h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+.sec-4>.row-1>div>p{
+    color: #8f8f8fc3;
+    padding-top: 20px;
+    line-height: 2px;
+    font-size: 15px;
+}
+.sec-4>.row-1>div>p:hover{
+    color: #cca772;
+    cursor: pointer;
+}
+.sec-4>.row-1>div>input{
+    border: 0px;
+    background-color: #ffffff21;
+    height: 47px;
+    width: 220px;
+    padding-left: 10px;
+}
+.sec-4>.row-1>div>button{
+    border: 1.5px solid #cca772;
+    background-color: #cca772;
+    padding: 5px 12px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 5764px;
+    right: 30px;
+}
+.sec-4>.row-2{
+    background-color: #0b1a2a;
+    padding-top: 20px;
+    width: 1275px;
+    height: 200px;
+    background-color: #0b1a2a;
+    color: #fff;
+}
+.sec-4>.row-2>.txt>p>span{
+    color: #cca772;
+    cursor: pointer;
+}
+.sec-4>.row-2>.font>i:hover{
+    background-color: #cca772;
+    cursor: pointer;
+}
+.sec-4>.row-2>.font>.fb{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 13px;
+    margin-right: 5px;
+}
+.sec-4>.row-2>.font>.tw{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 10px;
+    margin-right: 5px;
+}
+.sec-4>.row-2>.font>.globe{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 10px;
+    margin-right: 5px;
+}
+.sec-4>.row-2>.font>.bihance{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 9px;
+}
